@@ -100,23 +100,11 @@ p {
     opacity: 1;
 }
 
-/* Project GIF reveal */
+/* Projects */
 
-.static {
-    position: absolute;
+.project {
     display: flex;
-    justify-content: space-between;
     width: auto;
-    height: 100%;
-}
-
-.active {
-    display: flex;
-    justify-content: space-between;
-}
-
-.static:hover {
-    opacity: 0;
 }
 
 /* Project Popup */
