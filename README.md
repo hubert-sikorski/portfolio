@@ -1,3 +1,3 @@
 # hubertsikorski.com
 
-![gif](dist/img/projects/portfolio/portfolio.gif)
+![Portfolio](dist/img/projects/portfolio/portfolio.jpg)
