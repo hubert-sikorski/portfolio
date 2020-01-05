@@ -74,7 +74,7 @@ p {
     width: auto;
     height: auto;
     transition: .2s;
-    padding: 3rem;
+    padding: 4rem;
 }
 
 .next-tech {
@@ -98,8 +98,9 @@ p {
 
 @media only screen and (max-width: 991px) {
     .hubert-img {
-        width: 20rem;
-        height: 20rem;
+        width: auto;
+        max-width: 80%;
+        height: auto;
     }
 
     .frontend, .next-tech {
@@ -271,7 +272,7 @@ p {
 
 @media only screen and (min-width: 200px) and (max-width: 800px) {
     .parallax-photo {
-        background-image: url('../img/LA-phone.jpg');
+        background-image: url('../img/LA-mobile.jpg');
         background-attachment: unset;
     }
 }
