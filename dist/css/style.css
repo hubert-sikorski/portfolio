@@ -11,7 +11,7 @@ header,
     padding: 0;
 }
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 991px) {
     html,
     body,
     header,
@@ -96,24 +96,10 @@ p {
     opacity: 1;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 991px) {
     .hubert-img {
-        width: auto;
-        max-width: 80%;
-        height: auto;
-    }
-
-    .frontend, .next-tech {
         width: 20rem;
         height: 20rem;
-    }
-}
-
-@media only screen and (min-width: 600px) and (max-width: 992px) {
-    .hubert-img {
-        width: auto;
-        max-width: 80%;
-        height: auto;
     }
 
     .frontend, .next-tech {
