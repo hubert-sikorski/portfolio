@@ -52,12 +52,8 @@ p {
 
 .hubert-img {
     border-radius: 50%;
-}
-
-@media only screen and (max-width: 600px) {
-    .hubert-img {
-        width: 85%;
-    }
+    width: auto;
+    height: auto;
 }
 
 /* Tech Stack and Self Development */
@@ -75,10 +71,10 @@ p {
     z-index: 10;
     transition: all .2s;
     margin: 0 auto;
-    width: 200px;
-    height: 200px;
+    width: auto;
+    height: auto;
     transition: .2s;
-    padding: 50px;
+    padding: 3rem;
 }
 
 .next-tech {
@@ -93,11 +89,39 @@ p {
 }
 
 .next-tech:hover {
-    transform: scale(1.8) translateY(0.2rem);
+    transform: scale(1.4) translateY(0.2rem);
     -webkit-filter: drop-shadow(1.5px 1.5px 4px white);
     filter: drop-shadow(1.5px 1.5px 4px white);
     z-index: 20;
     opacity: 1;
+}
+
+@media only screen and (max-width: 600px) {
+    .hubert-img {
+        width: auto;
+        max-width: 80%;
+        height: auto;
+    }
+
+    .frontend, .next-tech {
+        width: auto;
+        max-width: 70%;
+        height: auto;
+    }
+}
+
+@media only screen and (min-width: 600px) and (max-width: 992px) {
+    .hubert-img {
+        width: auto;
+        max-width: 80%;
+        height: auto;
+    }
+
+    .frontend, .next-tech {
+        width: auto;
+        max-width: 60%;
+        height: auto;
+    }
 }
 
 /* Projects */
