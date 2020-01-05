@@ -104,9 +104,8 @@ p {
     }
 
     .frontend, .next-tech {
-        width: auto;
-        max-width: 70%;
-        height: auto;
+        width: 20rem;
+        height: 20rem;
     }
 }
 
@@ -118,9 +117,8 @@ p {
     }
 
     .frontend, .next-tech {
-        width: auto;
-        max-width: 60%;
-        height: auto;
+        width: 20rem;
+        height: 20rem;
     }
 }
 
