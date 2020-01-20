@@ -26,8 +26,8 @@ p {
 
 /* Navbar */
 
-.top-nav-collapse, .page-footer {
-    background-color: #563e91 !important;
+.top-nav-collapse {
+    background-color: rgba(86, 62, 145, 0.9) !important;
 }
 
 .navbar:not(.top-nav-collapse) {
@@ -36,7 +36,7 @@ p {
 
 @media only screen and (max-width: 991px) {
     .navbar:not(.top-nav-collapse) {
-        background: #563e91 !important;
+        background: rgba(86, 62, 145, 0.9) !important;
     }
 }
 
@@ -292,4 +292,10 @@ p {
     color: #fff;
     margin-bottom: 10px;
     display: none;
+}
+
+/* Footer */
+
+.page-footer {
+    background-color: rgba(86, 62, 145, 1);
 }
