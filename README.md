@@ -29,7 +29,7 @@
   - Made popups for projects
 
 - Version 1.1
-  - Content update
-  - Changed gifs to videos
+  - Content updated
+  - Changed GIFs to videos
   - Optimized videos and images
   - Added more responsiveness
