@@ -1,4 +1,4 @@
-## [hubertsikorski.com](hubertsikorski.com)
+# [hubertsikorski.com](hubertsikorski.com)
 
 ![Portfolio](dist/img/projects/portfolio/portfolio.jpg)
 
@@ -41,3 +41,4 @@
   - Fixed avatar postion and added new styling
   - Project previews enlarged
   - Added slight navbar transparency
+  - Updated videos
