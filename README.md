@@ -33,3 +33,11 @@
   - Changed GIFs to videos
   - Optimized videos and images
   - Added more responsiveness
+
+- Version 1.2
+  - Content updated
+  - Class names standardized
+  - Added Lightbox effect
+  - Fixed avatar postion and added new styling
+  - Project previews enlarged
+  - Added slight navbar transparency

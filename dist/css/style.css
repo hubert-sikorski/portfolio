@@ -59,13 +59,13 @@ p {
 
 /* Tech Stack and Self Development */
 
-.techstack, .projects, .next-tech {
+.technologies, .projects, .next-tech {
     display: flex;
     justify-content: center;
     align-content: space-around;
 }
 
-.frontend, .next-tech {
+.front-end, .next-tech {
     cursor: pointer;
     -webkit-filter: drop-shadow(1px 1px 2px #222);
     filter: drop-shadow(1px 1px 2px #222);
@@ -82,7 +82,7 @@ p {
     opacity: 0.5;
 }
 
-.frontend:hover {
+.front-end:hover {
     transform: scale(1.1) translateY(0.2rem);
     -webkit-filter: drop-shadow(1.5px 1.5px 4px white);
     filter: drop-shadow(1.5px 1.5px 4px white);
@@ -98,13 +98,13 @@ p {
 }
 
 @media only screen and (max-width: 991px) {
-    .hubert-img {
+    .avatar {
         width: auto;
         max-width: 80%;
         height: auto;
     }
 
-    .frontend, .next-tech {
+    .front-end, .next-tech {
         width: 20rem;
         height: 20rem;
     }
