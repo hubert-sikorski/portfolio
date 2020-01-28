@@ -18,6 +18,15 @@ header,
     .view {
         height: 100vh;
     }
+
+    .wow {
+        animation-name: none !important;
+        visibility: visible !important;
+    }
+
+    .sm-hide {
+        visibility: hidden;
+    }
 }
 
 p {
