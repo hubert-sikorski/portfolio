@@ -42,3 +42,9 @@
   - Project previews enlarged
   - Added slight navbar transparency
   - Updated videos
+
+- Version 1.3
+  - Added new project
+  - Added manifest.json
+  - Disabled preloading on large video files
+  - Added controls to preview videos
