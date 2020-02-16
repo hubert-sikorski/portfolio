@@ -1,7 +1,5 @@
 # [hubertsikorski.com](https://hubertsikorski.com)
 
-![Portfolio](dist/img/projects/portfolio/portfolio.jpg)
-
 ## Content breakdown (current version)
 
 - Section: Intro
@@ -45,6 +43,7 @@
 
 - Version 1.3
   - Added new project
+  - Updated Been project
   - Added manifest.json
   - Disabled preloading on large video files
-  - Added controls to preview videos
+  - Added controls to preview video

@@ -11,6 +11,11 @@ header,
     padding: 0;
 }
 
+*::selection {
+    background-color: rebeccapurple;
+    color: white;
+}
+
 @media only screen and (max-width: 991px) {
     html,
     body,
@@ -236,7 +241,7 @@ p {
 }
 
 .popup-header-2 {
-    background-image: linear-gradient(to right bottom, #ce0b15, #aa4247);
+    background-image: linear-gradient(to right bottom, #ce0b15, #240b36);
     background-clip: text;
     -webkit-background-clip: text;
     color: transparent;
@@ -248,7 +253,7 @@ p {
 }
 
 .popup-btn-2 {
-    background-image: linear-gradient(to right bottom, #ce0b15, #aa4247);
+    background-image: linear-gradient(to right bottom, #ce0b15, #240b36);
     color: white;
 }
 
