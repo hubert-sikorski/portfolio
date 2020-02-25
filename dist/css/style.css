@@ -57,9 +57,21 @@ p {
 /* Video Gradient */
 
 .rgba-gradient {
-    background: -moz-linear-gradient(45deg, rgba(213, 15, 61, 0.6), rgba(13, 17, 198, 0.69) 100%);
-    background: -webkit-linear-gradient(45deg, rgba(213, 15, 61, 0.6), rgba(13, 17, 198, 0.69) 100%);
-    background: linear-gradient(45deg, rgba(213, 15, 61, 0.6), rgba(13, 17, 198, 0.69) 100%);
+    background: -moz-linear-gradient(
+        45deg,
+        rgba(213, 15, 61, 0.6),
+        rgba(13, 17, 198, 0.69) 100%
+    );
+    background: -webkit-linear-gradient(
+        45deg,
+        rgba(213, 15, 61, 0.6),
+        rgba(13, 17, 198, 0.69) 100%
+    );
+    background: linear-gradient(
+        45deg,
+        rgba(213, 15, 61, 0.6),
+        rgba(13, 17, 198, 0.69) 100%
+    );
 }
 
 /* Avatar */
@@ -73,22 +85,25 @@ p {
 
 /* Tech Stack and Self Development */
 
-.technologies, .projects, .next-tech {
+.technologies,
+.projects,
+.next-tech {
     display: flex;
     justify-content: center;
     align-content: space-around;
 }
 
-.front-end, .next-tech {
+.front-end,
+.next-tech {
     cursor: pointer;
     -webkit-filter: drop-shadow(1px 1px 2px #222);
     filter: drop-shadow(1px 1px 2px #222);
     z-index: 10;
-    transition: all .2s;
+    transition: all 0.2s;
     margin: 0 auto;
     width: auto;
     height: auto;
-    transition: .2s;
+    transition: 0.2s;
     padding: 4rem;
 }
 
@@ -117,7 +132,8 @@ p {
         margin: auto;
     }
 
-    .front-end, .next-tech {
+    .front-end,
+    .next-tech {
         width: 20rem;
         height: 20rem;
     }
@@ -143,7 +159,7 @@ p {
     opacity: 0;
     visibility: hidden;
     display: none;
-    transition: all .3s;
+    transition: all 0.3s;
 }
 
 .popup:target {
@@ -170,7 +186,7 @@ p {
     overflow: hidden;
     opacity: 0;
     transform: translate(-50%, -50%) scale(0.25);
-    transition: all .4s .1s;
+    transition: all 0.4s 0.1s;
 }
 
 .popup-video {
@@ -207,7 +223,8 @@ p {
     }
 }
 
-.popup-close:link, .popup-close:visited {
+.popup-close:link,
+.popup-close:visited {
     color: gray;
     position: absolute;
     top: 0.1rem;
@@ -215,7 +232,7 @@ p {
     font-size: 3rem;
     text-decoration: none;
     display: inline-block;
-    transition: all .2s;
+    transition: all 0.2s;
     line-height: 1;
 }
 
