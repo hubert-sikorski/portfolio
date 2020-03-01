@@ -46,4 +46,5 @@
   - Updated Been project
   - Added manifest.json
   - Disabled preloading on large video files
-  - Added controls to preview video
+  - Added controls to preview a video
+  - Hid scrollbar, changed selection color
