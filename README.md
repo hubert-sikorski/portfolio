@@ -47,4 +47,9 @@
   - Added manifest.json
   - Disabled preloading on large video files
   - Added controls to preview a video
+
+- Version 1.4
+  - Moved Vue.js to Tech Stack
+  - Added Styled Components and Jest
   - Hid scrollbar, changed selection color
+  - Added LinkedIn profile
