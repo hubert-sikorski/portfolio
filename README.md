@@ -53,3 +53,4 @@
   - Added Styled Components and Jest
   - Hid scrollbar, changed selection color
   - Added LinkedIn profile
+  - Added posters to video tags
