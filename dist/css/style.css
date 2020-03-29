@@ -33,7 +33,7 @@ body::-webkit-scrollbar {
         visibility: visible !important;
     }
 
-    .sm-hide {
+    .mobile-hide {
         visibility: hidden;
     }
 }
@@ -322,14 +322,14 @@ p {
     background-attachment: fixed;
 }
 
-@media only screen and (min-width: 200px) and (max-width: 800px) {
+@media only screen and (max-width: 991px) {
     .parallax-photo {
         background-image: url('../img/LA-mobile.jpg');
         background-attachment: unset;
     }
 }
 
-@media only screen and (min-width: 800px) and (max-width: 2400px) {
+@media only screen and (min-width: 992px) {
     .parallax-photo {
         background-image: url('../img/LA-desktop.jpg');
     }
