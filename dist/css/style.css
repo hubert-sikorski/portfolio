@@ -312,6 +312,23 @@ p {
     color: white;
 }
 
+.popup-header-5 {
+    background-image: linear-gradient(to right bottom, navy, darkcyan);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+.popup-header-5:hover {
+    transform: skewX(2deg) skewY(1deg);
+    text-shadow: 1rem 1rem 2rem rgba(0, 0, 0, 0.2);
+}
+
+.popup-btn-5 {
+    background-image: linear-gradient(to right bottom, navy, darkcyan);
+    color: white;
+}
+
 /* Call to Action */
 
 .parallax-photo {
