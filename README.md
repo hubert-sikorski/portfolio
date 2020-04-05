@@ -54,3 +54,9 @@
   - Hid scrollbar, changed selection color
   - Added LinkedIn profile
   - Added posters to video tags
+
+- Version 1.5
+  - Removed Mocha and D3.js from active Tech Stack
+  - Added new project: MyCosmos
+  - Removed video posters
+  - Improved RWD

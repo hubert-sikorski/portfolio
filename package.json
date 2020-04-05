@@ -1,6 +1,6 @@
 {
     "name": "hubertsikorski.com-portfolio",
-    "version": "1.4.0",
+    "version": "1.5.0",
     "scripts": {
         "js-compile-plugins": "babel --presets env js/src/ --out-dir js/dist/",
         "css-compile": "gulp css-compile",
