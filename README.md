@@ -62,3 +62,4 @@
   - Added new project: MyCosmos
   - Removed video posters
   - Improved RWD
+  - Rmoved LinkedIn, Added GitLab
