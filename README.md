@@ -1,4 +1,4 @@
-[![Gitpod Ready-to-Code](https://img.shields.io/badge/Gitpod-Ready--to--Code-blue?logo=gitpod)](https://gitpod.io/#https://github.com/princeelector/portfolio) 
+[![Gitpod Ready-to-Code](https://img.shields.io/badge/Gitpod-Ready--to--Code-blue?logo=gitpod)](https://gitpod.io/#https://github.com/princeelector/portfolio)
 
 # [hubertsikorski.com](https://hubertsikorski.com)
 
@@ -68,4 +68,7 @@
   - Global improvements
   - Changed content
   - Removed unnecessary dependencies
+  - Removed obsolete files
   - Changed formatting rules
+  - Separated Projects into Commercial and Private
+  - Rearranged Private Projects

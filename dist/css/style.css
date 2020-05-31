@@ -3,88 +3,88 @@ html,
 body,
 header,
 .view {
-    height: 100%;
-    scroll-behavior: smooth;
-    -webkit-box-sizing: border-box;
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+  height: 100%;
+  scroll-behavior: smooth;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 *::selection {
-    background-color: rebeccapurple;
-    color: white;
+  background-color: rebeccapurple;
+  color: white;
 }
 
 body::-webkit-scrollbar {
-    width: 0rem;
+  width: 0rem;
 }
 
 @media only screen and (max-width: 991px) {
-    html,
-    body,
-    header,
-    .view {
-        height: 100vh;
-    }
+  html,
+  body,
+  header,
+  .view {
+    height: 100vh;
+  }
 
-    .wow {
-        animation-name: none !important;
-        visibility: visible !important;
-    }
+  .wow {
+    animation-name: none !important;
+    visibility: visible !important;
+  }
 
-    .mobile-hide {
-        visibility: hidden;
-    }
+  .mobile-hide {
+    visibility: hidden;
+  }
 }
 
 p {
-    font-size: larger;
+  font-size: larger;
 }
 
 /* Navbar */
 
 .top-nav-collapse {
-    background-color: rgba(86, 62, 145, 0.9) !important;
+  background-color: rgba(86, 62, 145, 0.9) !important;
 }
 
 .navbar:not(.top-nav-collapse) {
-    background: transparent !important;
+  background: transparent !important;
 }
 
 @media only screen and (max-width: 991px) {
-    .navbar:not(.top-nav-collapse) {
-        background: rgba(86, 62, 145, 0.9) !important;
-    }
+  .navbar:not(.top-nav-collapse) {
+    background: rgba(86, 62, 145, 0.9) !important;
+  }
 }
 
 /* Video Gradient */
 
 .rgba-gradient {
-    background: -moz-linear-gradient(
-        45deg,
-        rgba(213, 15, 61, 0.6),
-        rgba(13, 17, 198, 0.69) 100%
-    );
-    background: -webkit-linear-gradient(
-        45deg,
-        rgba(213, 15, 61, 0.6),
-        rgba(13, 17, 198, 0.69) 100%
-    );
-    background: linear-gradient(
-        45deg,
-        rgba(213, 15, 61, 0.6),
-        rgba(13, 17, 198, 0.69) 100%
-    );
+  background: -moz-linear-gradient(
+    45deg,
+    rgba(213, 15, 61, 0.6),
+    rgba(13, 17, 198, 0.69) 100%
+  );
+  background: -webkit-linear-gradient(
+    45deg,
+    rgba(213, 15, 61, 0.6),
+    rgba(13, 17, 198, 0.69) 100%
+  );
+  background: linear-gradient(
+    45deg,
+    rgba(213, 15, 61, 0.6),
+    rgba(13, 17, 198, 0.69) 100%
+  );
 }
 
 /* Avatar */
 
 .avatar {
-    border-radius: 50%;
-    width: auto;
-    height: auto;
-    filter: drop-shadow(2px 4px 2px #222);
+  border-radius: 50%;
+  width: auto;
+  height: auto;
+  filter: drop-shadow(2px 4px 2px #222);
 }
 
 /* Tech Stack and Self Development */
@@ -92,279 +92,275 @@ p {
 .technologies,
 .projects,
 .next-tech {
-    display: flex;
-    justify-content: center;
-    align-content: space-around;
+  display: flex;
+  justify-content: center;
+  align-content: space-around;
 }
 
 .front-end,
 .next-tech {
-    cursor: pointer;
-    -webkit-filter: drop-shadow(1px 1px 2px #222);
-    filter: drop-shadow(1px 1px 2px #222);
-    z-index: 10;
-    transition: all 0.2s;
-    margin: 0 auto;
-    width: auto;
-    height: auto;
-    transition: 0.2s;
-    padding: 4rem;
-}
-
-.next-tech {
-    opacity: 0.5;
+  cursor: pointer;
+  -webkit-filter: drop-shadow(1px 1px 2px #222);
+  filter: drop-shadow(1px 1px 2px #222);
+  z-index: 10;
+  transition: all 0.2s;
+  margin: 0 auto;
+  width: auto;
+  height: auto;
+  transition: 0.2s;
+  padding: 4rem;
 }
 
 .front-end:hover {
-    transform: scale(1.1) translateY(0.2rem);
-    -webkit-filter: drop-shadow(1.5px 1.5px 4px white);
-    filter: drop-shadow(1.5px 1.5px 4px white);
-    z-index: 20;
+  transform: scale(1.1) translateY(0.2rem);
+  -webkit-filter: drop-shadow(1.5px 1.5px 4px white);
+  filter: drop-shadow(1.5px 1.5px 4px white);
+  z-index: 20;
 }
 
 .next-tech:hover {
-    transform: scale(1.4) translateY(0.2rem);
-    -webkit-filter: drop-shadow(1.5px 1.5px 4px white);
-    filter: drop-shadow(1.5px 1.5px 4px white);
-    z-index: 20;
-    opacity: 1;
+  transform: scale(1.4) translateY(0.2rem);
+  -webkit-filter: drop-shadow(1.5px 1.5px 4px white);
+  filter: drop-shadow(1.5px 1.5px 4px white);
+  z-index: 20;
+  opacity: 1;
 }
 
 @media only screen and (max-width: 991px) {
-    .avatar {
-        max-width: 80%;
-        margin: auto;
-    }
+  .avatar {
+    max-width: 80%;
+    margin: auto;
+  }
 
-    .front-end,
-    .next-tech {
-        width: 20rem;
-        height: 20rem;
-    }
+  .front-end,
+  .next-tech {
+    width: 20rem;
+    height: 20rem;
+  }
 }
 
 /* Projects */
 
 .project {
-    display: flex;
-    width: auto;
+  display: flex;
+  width: auto;
 }
 
 /* Project Popup */
 
 .popup {
-    height: 100vh;
-    width: 100%;
-    position: fixed;
-    top: 0;
-    left: 0;
-    background-color: rgba(0, 0, 0, 0.8);
-    z-index: 9999;
-    opacity: 0;
-    visibility: hidden;
-    display: none;
-    transition: all 0.3s;
+  height: 100vh;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.8);
+  z-index: 9999;
+  opacity: 0;
+  visibility: hidden;
+  display: none;
+  transition: all 0.3s;
 }
 
 .popup:target {
-    opacity: 1;
-    display: block;
-    visibility: visible;
+  opacity: 1;
+  display: block;
+  visibility: visible;
 }
 
 .popup:target .popup-content {
-    opacity: 1;
-    transform: translate(-50%, -50%) scale(1);
+  opacity: 1;
+  transform: translate(-50%, -50%) scale(1);
 }
 
 .popup-content {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 90%;
-    background-color: #fff;
-    box-shadow: 0 2rem 4rem rgba(0, 0, 0, 0.2);
-    border-radius: 3px;
-    display: table;
-    overflow: hidden;
-    opacity: 0;
-    transform: translate(-50%, -50%) scale(0.25);
-    transition: all 0.4s 0.1s;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 90%;
+  background-color: #fff;
+  box-shadow: 0 2rem 4rem rgba(0, 0, 0, 0.2);
+  border-radius: 3px;
+  display: table;
+  overflow: hidden;
+  opacity: 0;
+  transform: translate(-50%, -50%) scale(0.25);
+  transition: all 0.4s 0.1s;
 }
 
 .popup-video {
-    display: block;
-    visibility: visible;
-    width: 100%;
+  display: block;
+  visibility: visible;
+  width: 100%;
 }
 
 .popup-text {
-    font-size: 1.4rem;
+  font-size: 1.4rem;
 }
 
 .popup-left {
-    width: 75%;
-    display: table-cell;
+  width: 75%;
+  display: table-cell;
 }
 
 @media only screen and (max-width: 1200px) {
-    .popup-left {
-        width: 100%;
-    }
+  .popup-left {
+    width: 100%;
+  }
 }
 
 .popup-right {
-    width: 25%;
-    vertical-align: middle;
-    display: table-cell;
-    padding: 1rem 3rem;
+  width: 25%;
+  vertical-align: middle;
+  display: table-cell;
+  padding: 1rem 3rem;
 }
 
 @media only screen and (max-width: 1200px) {
-    .popup-right {
-        display: none;
-    }
+  .popup-right {
+    display: none;
+  }
 }
 
 .popup-close:link,
 .popup-close:visited {
-    color: gray;
-    position: absolute;
-    top: 0.1rem;
-    right: 1rem;
-    font-size: 3rem;
-    text-decoration: none;
-    display: inline-block;
-    transition: all 0.2s;
-    line-height: 1;
+  color: gray;
+  position: absolute;
+  top: 0.1rem;
+  right: 1rem;
+  font-size: 3rem;
+  text-decoration: none;
+  display: inline-block;
+  transition: all 0.2s;
+  line-height: 1;
 }
 
 .popup-close:hover {
-    color: rgba(185, 19, 19, 0.9);
+  color: rgba(185, 19, 19, 0.9);
 }
 
 .popup-header-1 {
-    background-image: linear-gradient(to right bottom, #1059ad, #05044d);
-    background-clip: text;
-    -webkit-background-clip: text;
-    color: transparent;
+  background-image: linear-gradient(to right bottom, #1059ad, #05044d);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
 }
 
 .popup-header-1:hover {
-    transform: skewX(2deg) skewY(1deg);
-    text-shadow: 1rem 1rem 2rem rgba(0, 0, 0, 0.2);
+  transform: skewX(2deg) skewY(1deg);
+  text-shadow: 1rem 1rem 2rem rgba(0, 0, 0, 0.2);
 }
 
 .popup-btn-1 {
-    background-image: linear-gradient(to right bottom, #1059ad, #05044d);
-    color: white;
+  background-image: linear-gradient(to right bottom, #1059ad, #05044d);
+  color: white;
 }
 
 .popup-header-2 {
-    background-image: linear-gradient(to right bottom, #ce0b15, #240b36);
-    background-clip: text;
-    -webkit-background-clip: text;
-    color: transparent;
+  background-image: linear-gradient(to right bottom, #ce0b15, #240b36);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
 }
 
 .popup-header-2:hover {
-    transform: skewX(2deg) skewY(1deg);
-    text-shadow: 1rem 1rem 2rem rgba(0, 0, 0, 0.2);
+  transform: skewX(2deg) skewY(1deg);
+  text-shadow: 1rem 1rem 2rem rgba(0, 0, 0, 0.2);
 }
 
 .popup-btn-2 {
-    background-image: linear-gradient(to right bottom, #ce0b15, #240b36);
-    color: white;
+  background-image: linear-gradient(to right bottom, #ce0b15, #240b36);
+  color: white;
 }
 
 .popup-header-3 {
-    background-image: linear-gradient(to right bottom, #663399, #1b1e23);
-    background-clip: text;
-    -webkit-background-clip: text;
-    color: transparent;
+  background-image: linear-gradient(to right bottom, #663399, #1b1e23);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
 }
 
 .popup-header-3:hover {
-    transform: skewX(2deg) skewY(1deg);
-    text-shadow: 1rem 1rem 2rem rgba(0, 0, 0, 0.2);
+  transform: skewX(2deg) skewY(1deg);
+  text-shadow: 1rem 1rem 2rem rgba(0, 0, 0, 0.2);
 }
 
 .popup-btn-3 {
-    background-image: linear-gradient(to right bottom, #663399, #1b1e23);
-    color: white;
+  background-image: linear-gradient(to right bottom, #663399, #1b1e23);
+  color: white;
 }
 
 .popup-header-4 {
-    background-image: linear-gradient(to right bottom, #9c1283, #aa2b15);
-    background-clip: text;
-    -webkit-background-clip: text;
-    color: transparent;
+  background-image: linear-gradient(to right bottom, #9c1283, #aa2b15);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
 }
 
 .popup-header-4:hover {
-    transform: skewX(2deg) skewY(1deg);
-    text-shadow: 1rem 1rem 2rem rgba(0, 0, 0, 0.2);
+  transform: skewX(2deg) skewY(1deg);
+  text-shadow: 1rem 1rem 2rem rgba(0, 0, 0, 0.2);
 }
 
 .popup-btn-4 {
-    background-image: linear-gradient(to right bottom, #9c1283, #aa2b15);
-    color: white;
+  background-image: linear-gradient(to right bottom, #9c1283, #aa2b15);
+  color: white;
 }
 
 .popup-header-5 {
-    background-image: linear-gradient(to right bottom, navy, darkcyan);
-    background-clip: text;
-    -webkit-background-clip: text;
-    color: transparent;
+  background-image: linear-gradient(to right bottom, navy, darkcyan);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
 }
 
 .popup-header-5:hover {
-    transform: skewX(2deg) skewY(1deg);
-    text-shadow: 1rem 1rem 2rem rgba(0, 0, 0, 0.2);
+  transform: skewX(2deg) skewY(1deg);
+  text-shadow: 1rem 1rem 2rem rgba(0, 0, 0, 0.2);
 }
 
 .popup-btn-5 {
-    background-image: linear-gradient(to right bottom, navy, darkcyan);
-    color: white;
+  background-image: linear-gradient(to right bottom, navy, darkcyan);
+  color: white;
 }
 
 /* Call to Action */
 
 .parallax-photo {
-    display: block;
-    height: 100vh;
-    -webkit-background-size: cover;
-    background-size: cover;
-    background-attachment: fixed;
+  display: block;
+  height: 100vh;
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-attachment: fixed;
 }
 
 @media only screen and (max-width: 991px) {
-    .parallax-photo {
-        background-image: url('../img/LA-mobile.jpg');
-        background-attachment: unset;
-    }
+  .parallax-photo {
+    background-image: url('../img/LA-mobile.jpg');
+    background-attachment: unset;
+  }
 }
 
 @media only screen and (min-width: 992px) {
-    .parallax-photo {
-        background-image: url('../img/LA-desktop.jpg');
-    }
+  .parallax-photo {
+    background-image: url('../img/LA-desktop.jpg');
+  }
 }
 
 /* Contact message sent alert */
 
 .message-sent-alert {
-    text-align: center;
-    padding: 10px;
-    background: #79c879;
-    color: #fff;
-    margin-bottom: 10px;
-    display: none;
+  text-align: center;
+  padding: 10px;
+  background: #79c879;
+  color: #fff;
+  margin-bottom: 10px;
+  display: none;
 }
 
 /* Footer */
 
 .page-footer {
-    background-color: rgba(86, 62, 145, 1);
+  background-color: rgba(86, 62, 145, 1);
 }
