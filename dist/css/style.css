@@ -275,7 +275,7 @@ p {
 }
 
 .popup-header-3 {
-  background-image: linear-gradient(to right bottom, #663399, #1b1e23);
+  background-image: linear-gradient(to right bottom, #1b1e23, gray);
   background-clip: text;
   -webkit-background-clip: text;
   color: transparent;
@@ -287,7 +287,7 @@ p {
 }
 
 .popup-btn-3 {
-  background-image: linear-gradient(to right bottom, #663399, #1b1e23);
+  background-image: linear-gradient(to right bottom, #1b1e23, gray);
   color: white;
 }
 
@@ -322,6 +322,23 @@ p {
 
 .popup-btn-5 {
   background-image: linear-gradient(to right bottom, navy, darkcyan);
+  color: white;
+}
+
+.popup-header-6 {
+  background-image: linear-gradient(to right bottom, #663399, #1b1e23);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+.popup-header-6:hover {
+  transform: skewX(2deg) skewY(1deg);
+  text-shadow: 1rem 1rem 2rem rgba(0, 0, 0, 0.2);
+}
+
+.popup-btn-6 {
+  background-image: linear-gradient(to right bottom, #663399, #1b1e23);
   color: white;
 }
 

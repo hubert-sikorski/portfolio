@@ -72,3 +72,5 @@
   - Changed formatting rules
   - Separated Projects into Commercial and Private
   - Rearranged Private Projects
+  - Added Git&GitHub Guide to Private Projects
+  - Added Eazy2Assess to Commercial Projects
