@@ -37,8 +37,8 @@
 - Version 1.2
   - Content updated
   - Class names standardized
-  - Added Lightbox effect
-  - Fixed avatar postion and added new styling
+  - Added Light-box effect
+  - Fixed avatar position and added new styling
   - Project previews enlarged
   - Added slight navbar transparency
   - Updated videos
@@ -62,4 +62,10 @@
   - Added new project: MyCosmos
   - Removed video posters
   - Improved RWD
-  - Rmoved LinkedIn, Added GitLab
+  - Removed LinkedIn, Added GitLab
+
+- Version 1.6
+  - Global improvements
+  - Changed content
+  - Removed unnecessary dependencies
+  - Changed formatting rules

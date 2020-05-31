@@ -21,8 +21,6 @@ yarn-debug.log*
 yarn-error.log*
 
 # custom
-gulpfile.js
-package-lock.json
 /js
 scss
 dist/js/contactform.js
