@@ -235,6 +235,10 @@ p {
   color: rgba(185, 19, 19, 0.9);
 }
 
+.btn:hover {
+  color: lightblue !important;
+}
+
 .popup-header-1 {
   background-image: linear-gradient(to right bottom, #1059ad, #05044d);
   background-clip: text;
