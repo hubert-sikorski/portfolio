@@ -1,12 +1,8 @@
 {
   "name": "hubertsikorski.com-portfolio",
-  "version": "1.5.0",
+  "version": "1.6.0",
   "scripts": {
-    "js-compile-plugins": "babel --presets env js/src/ --out-dir js/dist/",
-    "css-compile": "gulp css-compile",
-    "css-minify": "gulp css-minify",
-    "js-build": "gulp js-build",
-    "js-minify": "gulp js-minify"
+    "js-compile-plugins": "babel --presets env js/src/ --out-dir js/dist/"
   },
   "repository": {
     "type": "git",
