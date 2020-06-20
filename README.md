@@ -74,3 +74,6 @@
   - Rearranged Private Projects
   - Added Git&GitHub Guide to Private Projects
   - Added Eazy2Assess to Commercial Projects
+
+- Version 1.7
+  - Content change
