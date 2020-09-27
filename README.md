@@ -77,3 +77,11 @@
 
 - Version 1.7
   - Content change
+
+- Version 1.8
+  - Connect LinkedIn
+  - Justify long paragraphs
+  - Minor UX improvements
+  - Change tech architecture
+  - New techs in "Tech Stack" and "Self Development"
+  - Protect email address from bots
