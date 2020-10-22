@@ -1,22 +1,19 @@
 {
   "name": "hubertsikorski.com-portfolio",
-  "version": "1.6.0",
-  "scripts": {
-    "js-compile-plugins": "babel --presets env js/src/ --out-dir js/dist/"
-  },
+  "version": "1.8.0",
   "repository": {
     "type": "git",
     "url": "https://github.com/princeelector/portfolio"
   },
   "author": "Hubert Sikorski",
-  "license": "MIT",
+  "license": "",
   "devDependencies": {
     "babel-cli": "^6.26.0",
     "babel-eslint": "^10.1.0",
     "babel-preset-env": "^1.7.0"
   },
   "dependencies": {
-    "@babel/core": "^7.10.2",
+    "@babel/core": "^7.12.3",
     "body-parser": "^1.19.0"
   },
   "description": ""

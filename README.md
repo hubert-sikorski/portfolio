@@ -1,6 +1,8 @@
 [![Gitpod Ready-to-Code](https://img.shields.io/badge/Gitpod-Ready--to--Code-blue?logo=gitpod)](https://gitpod.io/#https://github.com/princeelector/portfolio)
 
-# [hubertsikorski.com](https://hubertsikorski.com)
+# ARCHIVAL ~~hubertsikorski.com~~
+
+![website screenshot](./dist/img/website-screenshot.png)
 
 ## Content breakdown (current version)
 
